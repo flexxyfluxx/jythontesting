@@ -1,9 +1,6 @@
-from factory.interfaces import HelloWorldSayer
+from factory.interfaces import HelloWorldSayerType
 
 
-class HelloWorldSayer(HelloWorldSayer):
-    def __init__(self):
-        pass
-
-    def sayHelloWorld:
+class HelloWorldSayer(HelloWorldSayerType):
+    def sayHelloWorld(self):
         print("Hello from Jython!")
