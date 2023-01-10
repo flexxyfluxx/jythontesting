@@ -1,0 +1,3 @@
+out/*
+.jython_cache/*
+*.class
